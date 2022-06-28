@@ -1,0 +1,66 @@
+.book-details-modal{
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    transform: translate(0,-50%);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+    padding: 24px;
+    z-index: 100;
+    width: 90%;
+   
+    background-color: white;
+}
+
+
+
+
+
+.categories-modal a{
+    margin-inline-end: 8px;
+    color: #141414;
+
+}
+
+
+
+.close-modal{
+    position: absolute;
+    top: 0;
+    right: 24px;
+    text-transform: uppercase;
+}
+
+
+.screen {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+body .selectedBook.screen {
+    background-color: #141414;
+    pointer-events: auto;
+    opacity: 0.7;
+    inset: 0;
+    z-index: 10;
+}
+
+.product-details-modal p{
+    color: #808080;
+}
+
+.product-details-modal span{
+    color: #2c293b;
+}
+
+.product-details-modal .red{
+    color: red ;
+}
+.product-details-modal .green{
+    color: green ;
+}

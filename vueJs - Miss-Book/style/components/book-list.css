@@ -1,0 +1,26 @@
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    gap: 0;
+    border: 0.5rem solid goldenrod;
+}
+
+.filter-books {
+    display: flex;
+    max-width: 600px;
+}
+
+.book-preview-container {
+    max-width: fit-content;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 24px 8px;
+    cursor: pointer;
+
+}
+
+.book-preview-container img {
+    width: 265px;
+    height: 400px;
+    object-fit: cover;
+}
+
