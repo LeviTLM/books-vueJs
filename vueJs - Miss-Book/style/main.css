@@ -1,0 +1,21 @@
+/* COMPONENTS */
+@import '../style/components/book-modal.css';
+@import '../style/components/book-list.css';
+
+/* @import 'components/card.css';
+@import 'components/newsletter.css';
+@import 'components/screen.css'; */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+
+}
+
+
